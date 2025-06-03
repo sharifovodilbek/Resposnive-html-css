@@ -1,0 +1,211 @@
+.networks {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.networks>i {
+    font-size: 9rem;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+@media (max-width: 560px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px;
+        margin: 5px;
+    }
+
+    .links {
+        position: static;
+        width: 100%;
+        font-size: medium;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 15px;
+        margin-top: 10px;
+    }
+
+
+    .names {
+        font-size: 18px;
+        max-width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+
+    .img {
+        display: flex;
+        justify-content: center;
+        height: auto;
+        padding-top: 20px;
+        flex-direction: column;
+    }
+
+    .names button {
+        width: 190px;
+        margin-top: 20px;
+        padding: 10px 20px;
+        background-color: #FF6464;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+        text-transform: uppercase;
+    }
+
+    .names button:hover {
+        background-color: crimson;
+    }
+
+    .networks>i {
+        font-size: 5rem;
+    }
+
+
+    @media (max-width: 560px) {
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: center;
+            padding: 50px 0;
+            background-color: #EDF7FA;
+        }
+
+        .header {
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 0 20px;
+            box-sizing: border-box;
+        }
+
+        .header h4 {
+            margin: 0;
+            font-size: 22px;
+            font-weight: 400;
+        }
+
+        .card {
+            max-width: 418px;
+            height: 295px;
+            background-color: #FFFFFF;
+            border-radius: 8px;
+            padding: 20px;
+            flex: 1 1 calc(50% - 20px);
+            box-sizing: border-box;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .card h2 {
+            margin-top: 0;
+            font-size: 25px;
+            color: #333333;
+        }
+
+        .meta {
+            display: flex;
+            gap: 30px;
+            color: #777777;
+            font-size: 16px;
+            margin: 10px 0;
+        }
+
+        .description {
+            font-size: 17px;
+            line-height: 1.2;
+            color: #555555;
+        }
+
+        @media(max-width: 560px) {
+            .nav2 {
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+                padding: 20px;
+            }
+
+            .header2 {
+                width: 100%;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                padding: 0 20px;
+                box-sizing: border-box;
+
+            }
+
+            .header2 h4 {
+                margin: 0;
+                font-size: 22px;
+                font-weight: 400;
+            }
+
+            .box {
+                width: 100%;
+                overflow-x: hidden;
+            }
+
+            .img2 img {
+                width: 100%;
+                height: auto;
+                max-width: 100%;
+            }
+
+            .content {
+                display: flex;
+                flex-direction: column;
+                gap: 25px;
+                flex: 1;
+            }
+
+            .title h2 {
+                font-size: 24px;
+                color: #333333;
+                margin: 0;
+            }
+
+            .meta2 {
+                display: flex;
+                gap: 30px;
+                color: #777777;
+                font-size: 16px;
+
+            }
+
+            .p {
+                height: 20px;
+                background-color: #142850;
+                color: #FFFFFF;
+                border-radius: 6px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .text p {
+                display: flex;
+                font-size: 17px;
+                color: #555555;
+                margin: 0;
+                word-spacing: 5px;
+            }
+
+            .icon {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+        }
+    }
+
+}
